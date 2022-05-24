@@ -9,6 +9,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import android.support.v4.widget.DrawerLayout
 import android.support.v7.app.AppCompatActivity
+import android.view.View
 import com.mamburuapps.smack.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -52,4 +53,16 @@ class MainActivity : AppCompatActivity() {
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
 
+
+    fun loginBtnNavClicked(view:View){
+
+    }
+
+    fun channelBtnClicked(view: View){
+
+    }
+
+    fun senMessageBtnCliked(view: View) {
+
+    }
 }
