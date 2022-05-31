@@ -1,5 +1,6 @@
 package com.mamburuapps.smack
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.design.widget.NavigationView
 import androidx.navigation.findNavController
@@ -55,7 +56,8 @@ class MainActivity : AppCompatActivity() {
 
 
     fun loginBtnNavClicked(view:View){
-
+        val loginIntent = Intent(this,LoginActivity::class.java )
+        startActivity(loginIntent)
     }
 
     fun channelBtnClicked(view: View){
