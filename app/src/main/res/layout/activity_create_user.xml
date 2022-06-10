@@ -88,12 +88,12 @@
         android:layout_marginEnd="32dp"
         android:background="@color/purple_500"
         android:onClick="generateBackgroundColorClicked"
-        android:text="Button"
+        android:text="Generate background color"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/createAvatarImageView"
-        tools:text="Generate background color" />
+        app:layout_constraintTop_toBottomOf="@+id/createAvatarImageView"/>
 
     <Button
         android:id="@+id/createUserBtn"
